@@ -29,8 +29,8 @@ class ChronoActivity : AppCompatActivity() {
                     mChronoActivityViewModel?.restartTimer()
                 }
             } else {
-                //btnStartTimer.setText(resources.getString(R.string.start_timer))
-                //mChronoActivityViewModel?.cancelTimer()
+                btnStartTimer.setText(resources.getString(R.string.start_timer))
+                mChronoActivityViewModel?.cancelTimer()
             }
         }
     }
